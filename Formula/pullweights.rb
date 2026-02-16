@@ -7,20 +7,20 @@ class Pullweights < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-darwin-arm64"
-      sha256 "191b3bc5c25bde43d1b71ad805003ce90fb1749fe15879eedf1a9ed561b727cb"
+      sha256 "28dbfc414b7d29e4ba6eca91f6b231eed6d483ea961bffc759699902ab5da269"
     else
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-darwin-amd64"
-      sha256 "d7b692b9f1005c8ff2bc75ae92e3d69bf2e1204cf27fe92a6a091d4a234420af"
+      sha256 "469c877c7d4f42b071eb5bea4d77e427e591814d77ece09e959c96fbccb28f52"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-linux-arm64"
-      sha256 "9d379e4b180057a91785519a70c8f1698f795fc7ae63bf730cf1c9f4cb6fddf0"
+      sha256 "f8320dfbc7cfbaa02bece117d1b552b4bf40169520e264b8c9ce339d51e8e5ac"
     else
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-linux-amd64"
-      sha256 "8cb6eefff49d9b9d53a20d7561c27a04b686b9810a2b32cec9a8d11812d6abe9"
+      sha256 "ac89af155652d9e18449822a86a17327efe33d0414614171e8a887e44865c206"
     end
   end
 
