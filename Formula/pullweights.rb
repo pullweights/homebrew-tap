@@ -1,7 +1,7 @@
 class Pullweights < Formula
   desc "CLI for PullWeights — the decentralized AI model registry"
   homepage "https://github.com/pullweights/cli"
-  version "0.3.0"
+  version "0.1.1-rc1"
   license "MIT"
 
   on_macos do
