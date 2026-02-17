@@ -1,26 +1,26 @@
 class Pullweights < Formula
   desc "CLI for PullWeights — the decentralized AI model registry"
   homepage "https://github.com/pullweights/cli"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-darwin-arm64"
-      sha256 "4b217d9fa0dfdf0bb31601d69f1835055dd515af145dfb10622373f80d352fd6"
+      sha256 "41f922824cd1e1881ff632a444ab7d6cc3d38fb2093cc520c47a5f909c549367"
     else
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-darwin-amd64"
-      sha256 "953512fcd07bb1a3f6faa30fb985c88f2dfa72f3550aaa9b45a579212b3d5209"
+      sha256 "825dce112f9f266a22bebfbde341a43416d7bd259c99a4307efc38b09756755e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-linux-arm64"
-      sha256 "e3253e37fd271528753e263b716c3683e4163542fff4a4d4315efe1e350862ec"
+      sha256 "fa939074d59fb851d86b123c56b378ebec098b0ec4eaad32696c1e135312ba28"
     else
       url "https://github.com/pullweights/cli/releases/download/v#{version}/pullweights-linux-amd64"
-      sha256 "d355e1bcf022b1d5401af6cbbcbbd6848d095c0df0c09f7528197e49c8fa682a"
+      sha256 "3eb3b8bcba753f2f753f530773a6a30db5ae4d17ffadbbaef625f35344651210"
     end
   end
 
